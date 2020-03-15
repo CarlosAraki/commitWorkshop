@@ -22,7 +22,7 @@ npm install yarn
 git config --global alias.lg "log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --"
 
 
-## Commandos
+## Commandos Para ter padronização
 
 yarn init -y
 
@@ -42,4 +42,7 @@ yarn add husky -D
             }
         }
 
-testando debug
+## Commandos para automatizar padronização
+
+yarn add commitizen -D
+yarn commitizen init cz-conventional-changelog --yarn --dev --exact
