@@ -47,4 +47,17 @@ yarn add husky -D
 yarn add commitizen -D
 yarn commitizen init cz-conventional-changelog --yarn --dev --exact
 
+    "scripts":{
+        "commit":"git-cz"
+    }
 
+## Testando Padrões em projetos diferentes
+
+### React 
+    create-react-app git_app_react
+    cd git_app_react
+    yarn start
+
+### PHP 
+    mkdir git_app_php
+    New-Item index.php 
