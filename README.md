@@ -51,9 +51,6 @@ yarn commitizen init cz-conventional-changelog --yarn --dev --exact
         "commit":"git-cz"
     }
 
-
-    
-
 ## Testando Padrões em projetos diferentes
 
 ### React 
